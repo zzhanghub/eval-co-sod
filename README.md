@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://zhaozhang.net/coca.html">
+  <a href="http://zhaozhang.net/coca.html">
     <img src="img/eval_co-sod_logo.png" alt="Logo" width="210" height="100">
   </a>
 
@@ -10,7 +10,7 @@
   <p align="center">
     Automatically evaluate 8 metrics and draw 4 types of curves
     <br />
-    <a href="https://zhaozhang.net/coca.html"><strong>⭐ Project Home »</strong></a>
+    <a href="http://zhaozhang.net/coca.html"><strong>⭐ Project Home »</strong></a>
     <br />
   </p>
 </p>
