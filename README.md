@@ -57,6 +57,7 @@ The structure of `root_dir` should be organized as follows:
 │   │       └── 186605.png
 │   ├── dataset2 ...
 │   └── dataset3 ...
+│ 
 └── pred
     └── method1
     │   ├── dataset1
@@ -85,7 +86,7 @@ The structure of `root_dir` should be organized as follows:
 sh eval.sh
 ```
 
-### 2. Draw the 4 types of curves
+### 3. Draw the 4 types of curves
 1. Configure `plot_curve.sh`
 ```shell
 --methods method1+method2+method3 (Multiple items are connected with '+')
