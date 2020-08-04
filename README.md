@@ -8,7 +8,7 @@
   <h3 align="center">PyTorch-Based Evaluation Tool for Co-Saliency Detection</h3>
 
   <p align="center">
-    Automatically evaluate 8 metrics and draw 3 types of curves
+    Automatically evaluate 8 metrics and draw 4 types of curves
     <br />
     <a href="https://zhaozhang.net/coca.html"><strong>⭐ Project Home »</strong></a>
     <br />
@@ -18,7 +18,7 @@
 
 ***
 **Eval Co-SOD** is an extended version of [Evaluate-SOD](https://github.com/Hanqer/Evaluate-SOD) for **co-saliency detection task**.
-It provides eight metrics and three curves:
+It provides eight metrics and four curves:
 * Metrics:
     * Mean Absolute Error (MAE)
 	* Maximum F-measure (max-Fm)
@@ -32,6 +32,7 @@ It provides eight metrics and three curves:
 	* Precision-Recall (PR) curve
 	* Receiver Operating Characteristic (ROC) curve
 	* F-measure curve
+  * E-measure curve
 
 
 evaluation tool for co-saliency detection methods.
@@ -75,7 +76,7 @@ The structure of `root_dir` should be organized as follows:
 ```shell
 --methods method1+method2+method3 (Multiple items are connected with '+')
 --datasets dataset1+dataset2+dataset3
---save_dir ../Result (Path to save results)
+--save_dir ./Result (Path to save results)
 --root_dir ../SalMaps
 ```
 
@@ -84,13 +85,13 @@ The structure of `root_dir` should be organized as follows:
 sh eval.sh
 ```
 
-### 2. Draw the 3 types of curves
+### 2. Draw the 4 types of curves
 1. Configure `plot_curve.sh`
 ```shell
 --methods method1+method2+method3 (Multiple items are connected with '+')
 --datasets dataset1+dataset2+dataset3
---out_dir ../Result/Curves (Path to save results)
---res_dir ../Result
+--out_dir ./Result/Curves (Path to save results)
+--res_dir ./Result/Detail
 ```
 
 2. Run by

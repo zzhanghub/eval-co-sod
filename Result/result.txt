@@ -1,1 +1,0 @@
-CoCA (GICD_retest): 0.1217 mae || 0.5107 max-fm || 0.5037 mean-fm || 0.7163 max-Emeasure || 0.7045 mean-Emeasure || 0.6566 S-measure || 0.4237 AP || 0.8009 AUC.
