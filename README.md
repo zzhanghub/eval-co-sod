@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="http://zhaozhang.net/coca.html">
-    <img src="img/eval_co-sod_logo.png" alt="Logo" width="210" height="100">
+    <img src="img/eval_co-sod.png" alt="Logo" width="210" height="100">
   </a>
 
   <h3 align="center">PyTorch-Based Evaluation Tool for Co-Saliency Detection</h3>
