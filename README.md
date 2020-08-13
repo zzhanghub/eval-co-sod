@@ -32,10 +32,8 @@ It provides eight metrics and four curves:
 	* Precision-Recall (PR) curve
 	* Receiver Operating Characteristic (ROC) curve
 	* F-measure curve
-  * E-measure curve
+	* E-measure curve
 
-
-evaluation tool for co-saliency detection methods.
 
 ## Prerequisites
 * PyTorch >= 1.0
