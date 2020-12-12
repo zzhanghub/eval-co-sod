@@ -25,8 +25,8 @@ def main(cfg):
                 os.path.join(cfg.res_dir, dataset + '_' + method + '.pth'))
             imax = np.argmax(iRes['Fm'])
             plt.plot(
-                iRes['Prec'],
                 iRes['Recall'],
+                iRes['Prec'],
                 #  styles[idx_style],
                 color=colors[idx_style],
                 linestyle=lines[idx_style],
